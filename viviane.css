@@ -1,0 +1,84 @@
+#menu ul {
+width: 100%;
+height: auto;
+padding: 10px;
+margin: 0;
+background-color:   #5c0000;
+list-style: none; 
+}
+
+
+#menu ul li {
+display: inline; 
+}
+
+/*escrito do botão*/
+
+#menu ul li a {
+font-family: robto;
+padding: 2px 10px;
+display: inline-block;
+margin-left: 15px;
+color:  #c50000;
+text-decoration: none; 
+border-bottom: 3px solid rgb(235, 72, 53);
+}
+
+/*mouse em cima do botão*/
+
+#menu ul li a:hover { 
+color: #01cdfe;
+border-bottom: 3px solid rgb(235, 72, 53);
+}
+
+#equipe {
+	width: 150px;
+	display: inline-block;
+
+}
+body {  background-image: url("imagens/grifinoria.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+@font-face{
+	font-family: roboto;
+	src: url(roboto.ttf);
+}
+@font-face{
+  font-family: harry;
+  src: url(harry.ttf);
+}
+  p {
+  		font-family: robto; 
+            text-shadow: 1px 0px 0px #000000, 
+                 -1px 0px 0px #000000,
+                 0px 1px 0px #000000, 
+                 0px -1px 0px #000000;
+    font-weight: bold;
+    color:  #d3a625;
+      font-size: 20px;
+  }
+
+  #title{
+  	font-family:harry ;
+  	font-size:100px;
+            text-shadow: 1px 0px 0px #000000, 
+                 -1px 0px 0px #000000,
+                 0px 1px 0px #000000, 
+                 0px -1px 0px #000000;
+    font-weight: bold;
+    
+    color: #ae0001;
+  }
+
+  .subtitle{
+    font-family:harry ;
+  	font-size: 50px;
+  	    text-shadow: 1px 0px 0px #740001, 
+                 -1px 0px 0px #740001,
+                 0px 1px 0px #740001, 
+                 0px -1px 0px #740001;
+    font-weight: bold;
+    color:  #d3a625;
+  }

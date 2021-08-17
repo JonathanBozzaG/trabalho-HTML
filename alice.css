@@ -1,0 +1,82 @@
+
+/*desenho da barra de menu*/
+
+#menu ul {
+width: 100%;
+height: auto;
+padding: 10px;
+margin: 0;
+background-color: rgb(163, 16, 23);
+list-style: none; 
+}
+
+
+#menu ul li {
+display: inline; 
+}
+
+/*escrito do botão*/
+
+#menu ul li a {
+font-family: Arial, Helvetica, sans-serif;
+padding: 2px 10px;
+display: inline-block;
+margin-left: 15px;
+background-color:rgb(163, 16, 23);
+color: #FFFFFF;
+text-decoration: none; 
+border-bottom: 3px solid rgb(34, 37, 164);
+}
+
+/*mouse em cima do botão*/
+
+#menu ul li a:hover { 
+color: #01cdfe;
+border-bottom: 3px solid rgb(19, 21, 91);
+}
+
+#equipe {
+	width: 150px;
+	display: inline-block;
+
+}
+
+body {  background-image: url("imagens/aaatu.png");
+ background-size: cover;
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+  }
+
+
+@font-face{
+	font-family: Jedi;
+	src: url(Starjedi.ttf);
+}
+
+  p {
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+    	    text-shadow: 1px 0px 0px #000000, 
+                 -1px 0px 0px #000000,
+                 0px 1px 0px #000000, 
+                 0px -1px 0px #000000;
+    font-weight: bold;
+    color: #FFF;
+  }
+
+  div
+  {
+  	font-family: Jedi;
+  	color: blue;
+  	font-size: 200%;
+  	margin-top: 20px;
+  }
+
+  h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  }
